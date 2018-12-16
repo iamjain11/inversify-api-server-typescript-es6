@@ -1,0 +1,10 @@
+apps:
+  - script   : './index.js'
+    name     : 'inversify-api-server'
+    cwd      : "./dist/"
+    max_memory_restart: 2G
+    log_date_format: 'YYYY-MM-DD HH:mm:ss SSS'
+    out_file: './logs/app_stdout.log'
+    error_file: './logs/app_stderr.log'
+    env:
+       NODE_PATH: "./"

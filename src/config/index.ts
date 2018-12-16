@@ -1,0 +1,1 @@
+export { config, isLocal } from './config'
