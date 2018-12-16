@@ -2,6 +2,7 @@
 base architecture for inversify REST full API server
 
 Requirements:
+
     $ sudo npm install gulp-cli -g;
     $ sudo npm install typescript ts-node eslint -g;
     $ sudo npm install -g nodemon;
